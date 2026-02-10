@@ -39,7 +39,7 @@ namespace Dypsloom.DypThePenguin.Scripts.Character
         /// </summary>
         private void Awake()
         {
-            m_PlayerCharacter = FindObjectOfType<Character>();
+            m_PlayerCharacter = FindAnyObjectByType<Character>();
             m_PlayerTransform = m_PlayerCharacter?.transform;
 
             m_Animator = GetComponent<Animator>();

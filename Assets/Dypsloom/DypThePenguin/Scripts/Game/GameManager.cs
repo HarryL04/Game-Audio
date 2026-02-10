@@ -25,7 +25,7 @@ namespace Dypsloom.DypThePenguin.Scripts.Game
             {
                 if (s_Instance != null) { return s_Instance; }
 
-                s_Instance = FindObjectOfType<GameManager>();
+                s_Instance = FindAnyObjectByType<GameManager>();
                 if (s_Instance == null) {
                     s_Instance = new GameObject("Game Manager").AddComponent<GameManager>(); 
                 }
