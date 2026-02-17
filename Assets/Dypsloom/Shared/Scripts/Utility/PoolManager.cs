@@ -29,7 +29,7 @@ namespace Dypsloom.Shared.Utility
             {
                 if (s_Instance != null) { return s_Instance; }
 
-                s_Instance = FindObjectOfType<PoolManager>();
+                s_Instance = FindAnyObjectByType<PoolManager>();
                 if (s_Instance == null) {
                     s_Instance = s_Instance = new GameObject("Pool Manager").AddComponent<PoolManager>(); 
                 }
