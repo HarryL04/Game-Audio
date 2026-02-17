@@ -47,6 +47,53 @@ MonoBehaviour:
   - Name: Desktop
     Value: 2148256
   Exists: 1
+--- !u!114 &-3266512640607547925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/BackgroundMusic
+  m_EditorClassIdentifier: 
+  Path: event:/Music/BackgroundMusic
+  Guid:
+    Data1: 596387759
+    Data2: 1076771249
+    Data3: 1594108590
+    Data4: -1428252498
+  Banks:
+  - {fileID: 205834444763707753}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 154904
+--- !u!114 &-1401116487574141785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Penguin/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 639069292149438676
+  FileSizes:
+  - Name: Desktop
+    Value: 1232
+  Exists: 1
 --- !u!114 &-809150888228073931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80,21 +127,41 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -809150888228073931}
-  - {fileID: 2398115179734595480}
-  - {fileID: -5144522042967500484}
+  - {fileID: 7512914559160690818}
+  - {fileID: -1401116487574141785}
+  - {fileID: 205834444763707753}
   EditorEvents:
-  - {fileID: -5468386877165278592}
+  - {fileID: -3266512640607547925}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 2398115179734595480}
+  - {fileID: -1401116487574141785}
   StringsBanks:
-  - {fileID: -809150888228073931}
+  - {fileID: 7512914559160690818}
   cacheVersion: 131858
-  cacheTime: 639069247956879971
+  cacheTime: 639069292149480522
   SerializableEventsDict:
   - key: event:/Music/BackgroundMusic
     index: 0
+--- !u!114 &205834444763707753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Penguin/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 639069292149480522
+  FileSizes:
+  - Name: Desktop
+    Value: 2148256
+  Exists: 1
 --- !u!114 &2398115179734595480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114,4 +181,24 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 1232
+  Exists: 1
+--- !u!114 &7512914559160690818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Penguin/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 639069292149441221
+  FileSizes:
+  - Name: Desktop
+    Value: 866
   Exists: 1
