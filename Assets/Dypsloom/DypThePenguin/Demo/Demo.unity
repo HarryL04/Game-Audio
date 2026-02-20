@@ -8155,11 +8155,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 673926126
-      Data2: 1297294023
-      Data3: 2048813493
-      Data4: 2058563236
-    Path: event:/Music/BackingMusic
+      Data1: 1082931949
+      Data2: 1141606455
+      Data3: 860819889
+      Data4: -956022021
+    Path: event:/Music/BackingMusic2
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 0
@@ -9445,10 +9445,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverSoundEvent:
     Guid:
-      Data1: 1341618919
-      Data2: 1146530901
-      Data3: -899813229
-      Data4: 604887471
+      Data1: -1255725004
+      Data2: 1114484437
+      Data3: -555375741
+      Data4: -2076816336
     Path: event:/UI/Click_Pen
 --- !u!1 &1786534940
 GameObject:
