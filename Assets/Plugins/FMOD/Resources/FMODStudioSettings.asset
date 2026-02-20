@@ -625,7 +625,6 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
-  - Misc
   - Music
   - UI
   BanksToLoad: []

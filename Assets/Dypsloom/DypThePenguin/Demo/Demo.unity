@@ -435,6 +435,7 @@ GameObject:
   - component: {fileID: 114385330}
   - component: {fileID: 114385329}
   - component: {fileID: 114385328}
+  - component: {fileID: 114385331}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -556,6 +557,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 114385326}
   m_CullTransparentMesh: 0
+--- !u!114 &114385331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114385326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f79b76b4b6cc4a51bd56eaf629ad43e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverSoundEvent:
+    Guid:
+      Data1: 1341618919
+      Data2: 1146530901
+      Data3: -899813229
+      Data4: 604887471
+    Path: event:/UI/Click_Pen
 --- !u!4 &128614667 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8305396518152113136, guid: 846e94f8d62d2be4c933954f6eaa4889,
@@ -8135,11 +8155,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 596387759
-      Data2: 1076771249
-      Data3: 1594108590
-      Data4: -1428252498
-    Path: event:/BackgroundMusic
+      Data1: 673926126
+      Data2: 1297294023
+      Data3: 2048813493
+      Data4: 2058563236
+    Path: event:/Music/BackingMusic
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 0
@@ -9289,6 +9309,7 @@ GameObject:
   - component: {fileID: 1747348441}
   - component: {fileID: 1747348440}
   - component: {fileID: 1747348439}
+  - component: {fileID: 1747348442}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -9410,6 +9431,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1747348437}
   m_CullTransparentMesh: 0
+--- !u!114 &1747348442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747348437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f79b76b4b6cc4a51bd56eaf629ad43e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverSoundEvent:
+    Guid:
+      Data1: 1341618919
+      Data2: 1146530901
+      Data3: -899813229
+      Data4: 604887471
+    Path: event:/UI/Click_Pen
 --- !u!1 &1786534940
 GameObject:
   m_ObjectHideFlags: 0
