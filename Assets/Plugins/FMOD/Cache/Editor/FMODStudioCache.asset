@@ -15,7 +15,25 @@ MonoBehaviour:
   Path: FMOD/Penguin/Build/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639071897086506373
+  lastModified: 639075399799481275
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-6970857386977205388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music_CP.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Penguin/Build/Music_CP.bank
+  Name: Music_CP
+  StudioPath: bank:/Music_CP
+  lastModified: 639075393702810180
   FileSizes: []
   Exists: 1
 --- !u!114 &-3337669052743751004
@@ -38,7 +56,7 @@ MonoBehaviour:
   - Name: Desktop
     Value: 3976960
   Exists: 1
---- !u!114 &-2940436024061256135
+--- !u!114 &-1858751605478400154
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -48,30 +66,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Music.bank
+  m_Name: bank:/UI_CP.bank
   m_EditorClassIdentifier: 
-  Path: FMOD/Penguin/Build/Music.bank
-  Name: Music
-  StudioPath: bank:/Music
-  lastModified: 639071897088112327
-  FileSizes: []
-  Exists: 1
---- !u!114 &-2940126839197366008
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/UI.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/Penguin/Build/UI.bank
-  Name: UI
-  StudioPath: bank:/UI
-  lastModified: 639071893752594735
+  Path: FMOD/Penguin/Build/UI_CP.bank
+  Name: UI_CP
+  StudioPath: bank:/UI_CP
+  lastModified: 639075393702966335
   FileSizes: []
   Exists: 1
 --- !u!114 &11400000
@@ -89,19 +89,19 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: 7342449948702207434}
   - {fileID: -8057766955466118740}
-  - {fileID: -2940436024061256135}
-  - {fileID: -2940126839197366008}
+  - {fileID: -6970857386977205388}
+  - {fileID: -1858751605478400154}
   EditorEvents:
-  - {fileID: 7036445758483173456}
-  - {fileID: 3924211530875648307}
   - {fileID: 780553307200734258}
+  - {fileID: 3621141525170347718}
+  - {fileID: 4432572956035229825}
   EditorParameters: []
   MasterBanks:
   - {fileID: -8057766955466118740}
   StringsBanks:
   - {fileID: 7342449948702207434}
   cacheVersion: 131858
-  cacheTime: 639071897088112327
+  cacheTime: 639075399799488726
   SerializableEventsDict:
   - key: event:/Music/BackingMusic
     index: 0
@@ -170,12 +170,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Music/BackingMusic2
   Guid:
-    Data1: 1082931949
-    Data2: 1141606455
-    Data3: 860819889
-    Data4: -956022021
+    Data1: 929788123
+    Data2: 1269049013
+    Data3: 1010930827
+    Data4: 269654754
   Banks:
-  - {fileID: -2940436024061256135}
+  - {fileID: -6970857386977205388}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -183,7 +183,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 14545
---- !u!114 &3924211530875648307
+--- !u!114 &3621141525170347718
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -193,23 +193,50 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UI/Click_Pen
+  m_Name: event:/Music/BackingMusic1
   m_EditorClassIdentifier: 
-  Path: event:/UI/Click_Pen
+  Path: event:/Music/BackingMusic1
   Guid:
-    Data1: -1255725004
-    Data2: 1114484437
-    Data3: -555375741
-    Data4: -2076816336
+    Data1: 235777346
+    Data2: 1106543857
+    Data3: -487455333
+    Data4: -1623963199
   Banks:
-  - {fileID: -2940126839197366008}
+  - {fileID: -6970857386977205388}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 18113
+--- !u!114 &4432572956035229825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Menu_Hover
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Menu_Hover
+  Guid:
+    Data1: -1041970628
+    Data2: 1149380956
+    Data3: 681768354
+    Data4: -2653576
+  Banks:
+  - {fileID: -1858751605478400154}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 100
+  Length: 46
 --- !u!114 &5463735811509589766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -257,33 +284,6 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1232
   Exists: 1
---- !u!114 &7036445758483173456
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/BackingMusic
-  m_EditorClassIdentifier: 
-  Path: event:/Music/BackingMusic
-  Guid:
-    Data1: -1397002128
-    Data2: 1289375754
-    Data3: 561960373
-    Data4: 928729728
-  Banks:
-  - {fileID: -2940436024061256135}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 18113
 --- !u!114 &7342449948702207434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -299,8 +299,8 @@ MonoBehaviour:
   Path: FMOD/Penguin/Build/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639071897086513549
+  lastModified: 639075399799488726
   FileSizes:
   - Name: 
-    Value: 970
+    Value: 978
   Exists: 1
