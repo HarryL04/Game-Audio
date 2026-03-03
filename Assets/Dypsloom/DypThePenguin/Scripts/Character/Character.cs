@@ -4,6 +4,8 @@
 /// https://www.dypsloom.com
 /// ---------------------------------------------
 
+
+
 namespace Dypsloom.DypThePenguin.Scripts.Character
 {
     using Dypsloom.DypThePenguin.Scripts.Damage;
@@ -12,13 +14,22 @@ namespace Dypsloom.DypThePenguin.Scripts.Character
     using System.Threading.Tasks;
     using UnityEngine;
     using CharacterController = UnityEngine.CharacterController;
-
+    using FMODUnity;
+    using FMOD.Studio;
     /// <summary>
     /// The character controller.
     /// </summary>
     [RequireComponent(typeof(CharacterController))]
     public class Character : MonoBehaviour
     {
+
+    [SerializeField]public EventReference jumpSound;
+
+    public void PlayJumpSound()
+    {
+        RuntimeManager.PlayOneShot(jumpSound, transform.position);
+    }
+       
         public event Action OnDie;
         
         [Tooltip("The character speed in units/second.")]
@@ -83,6 +94,7 @@ namespace Dypsloom.DypThePenguin.Scripts.Character
             get => m_GroundedTimer >= Time.time;
             set => m_GroundedTimer = value ? Time.time + m_AdditionalGroundedTime : 0;
         }
+
 
         /// <summary>
         /// Initialize all the properties.

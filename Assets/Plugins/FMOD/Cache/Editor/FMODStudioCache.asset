@@ -1,5 +1,50 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8968579020359376263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/Desktop/Player.bank
+  Name: Player
+  StudioPath: bank:/Player
+  lastModified: 639081410625881085
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-8031565816719186376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Click_Pen
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Click_Pen
+  Guid:
+    Data1: -1694973930
+    Data2: 1212219629
+    Data3: 1775951289
+    Data4: 946231017
+  Banks:
+  - {fileID: -6866640526550117665}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-7756411514113515071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27,6 +72,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 18113
+--- !u!114 &-7008434649035029984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Amb/Duck_Quack
+  m_EditorClassIdentifier: 
+  Path: event:/Amb/Duck_Quack
+  Guid:
+    Data1: 1833811001
+    Data2: 1305182545
+    Data3: -1654420848
+    Data4: 631205268
+  Banks:
+  - {fileID: 448073672816081446}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-6866640526550117665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,36 +114,9 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/FMOD/Desktop/UI.bank
   Name: UI
   StudioPath: bank:/UI
-  lastModified: 639078940602939217
+  lastModified: 639081351556822229
   FileSizes: []
   Exists: 1
---- !u!114 &-6581494634841780312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Menu_Hover
-  m_EditorClassIdentifier: 
-  Path: event:/Menu_Hover
-  Guid:
-    Data1: -2358516
-    Data2: 1239504934
-    Data3: 643222916
-    Data4: -1201519624
-  Banks:
-  - {fileID: -6866640526550117665}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 60
 --- !u!114 &-5468386877165278592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,6 +164,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 2148256
   Exists: 1
+--- !u!114 &-5065509134316855399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Amb/Winter Wind Sound Effect - Sound Effect Database (youtube)
+  m_EditorClassIdentifier: 
+  Path: event:/Amb/Winter Wind Sound Effect - Sound Effect Database (youtube)
+  Guid:
+    Data1: 629389308
+    Data2: 1222974899
+    Data3: 336003731
+    Data4: -436403605
+  Banks:
+  - {fileID: 448073672816081446}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 14733
 --- !u!114 &-4820814856917213802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139,7 +211,7 @@ MonoBehaviour:
   - Name: Desktop
     Value: 342368
   Exists: 1
---- !u!114 &-3594040910742650858
+--- !u!114 &-3877213874803173800
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -149,23 +221,50 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/BackingMusic 2
+  m_Name: event:/Player/Jump Sound
   m_EditorClassIdentifier: 
-  Path: event:/BackingMusic 2
+  Path: event:/Player/Jump Sound
   Guid:
-    Data1: 820244333
-    Data2: 1273225261
-    Data3: -443681625
-    Data4: -584749976
+    Data1: -892987176
+    Data2: 1288272383
+    Data3: -799267404
+    Data4: -760187859
   Banks:
-  - {fileID: -299896337581183203}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
+  - {fileID: -8968579020359376263}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 14545
+  Length: 0
+--- !u!114 &-3075118429265044706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Amb/Duck Screech
+  m_EditorClassIdentifier: 
+  Path: event:/Amb/Duck Screech
+  Guid:
+    Data1: 210422502
+    Data2: 1274052712
+    Data3: -1483958614
+    Data4: 407153455
+  Banks:
+  - {fileID: 448073672816081446}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-3031656285380061208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -228,7 +327,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/FMOD/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639078940602787868
+  lastModified: 639081424987926622
   FileSizes: []
   Exists: 1
 --- !u!114 &11400000
@@ -248,24 +347,83 @@ MonoBehaviour:
   - {fileID: 2311431967893561235}
   - {fileID: -299896337581183203}
   - {fileID: -6866640526550117665}
+  - {fileID: 448073672816081446}
+  - {fileID: -8968579020359376263}
   EditorEvents:
-  - {fileID: 8084190797732299334}
-  - {fileID: -3594040910742650858}
-  - {fileID: -6581494634841780312}
+  - {fileID: -5065509134316855399}
+  - {fileID: 2866250073699259520}
+  - {fileID: 779757231034099169}
+  - {fileID: -8031565816719186376}
+  - {fileID: -7008434649035029984}
+  - {fileID: -3877213874803173800}
+  - {fileID: -3075118429265044706}
   EditorParameters: []
   MasterBanks:
   - {fileID: 2311431967893561235}
   StringsBanks:
   - {fileID: 5923497803616204652}
   cacheVersion: 131858
-  cacheTime: 639078940602939217
+  cacheTime: 639081424987926622
   SerializableEventsDict:
-  - key: event:/BackingMusic 1
+  - key: event:/Amb/Winter Wind Sound Effect - Sound Effect Database (youtube)
     index: 0
-  - key: event:/BackingMusic 2
+  - key: event:/Music/BackingMusic
     index: 1
-  - key: event:/Menu_Hover
+  - key: event:/Player/Throw_Effect
     index: 2
+  - key: event:/UI/Click_Pen
+    index: 3
+  - key: event:/Amb/Duck_Quack
+    index: 4
+  - key: event:/Player/Jump Sound
+    index: 5
+  - key: event:/Amb/Duck Screech
+    index: 6
+--- !u!114 &448073672816081446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/Desktop/Ambience.bank
+  Name: Ambience
+  StudioPath: bank:/Ambience
+  lastModified: 639081412199238842
+  FileSizes: []
+  Exists: 1
+--- !u!114 &779757231034099169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Throw_Effect
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Throw_Effect
+  Guid:
+    Data1: 1749353162
+    Data2: 1132590959
+    Data3: 341562550
+    Data4: 1310914992
+  Banks:
+  - {fileID: -8968579020359376263}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &2311431967893561235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -281,7 +439,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/FMOD/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639078940600555716
+  lastModified: 639081412198661163
   FileSizes: []
   Exists: 1
 --- !u!114 &2398115179734595480
@@ -304,6 +462,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1232
   Exists: 1
+--- !u!114 &2866250073699259520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/BackingMusic
+  m_EditorClassIdentifier: 
+  Path: event:/Music/BackingMusic
+  Guid:
+    Data1: -1204250023
+    Data2: 1226796514
+    Data3: 1067566982
+    Data4: -2079697235
+  Banks:
+  - {fileID: -299896337581183203}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 339748
 --- !u!114 &3763552627847225266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -346,10 +531,10 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/FMOD/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639078940600563977
+  lastModified: 639081412198670350
   FileSizes:
   - Name: 
-    Value: 964
+    Value: 1302
   Exists: 1
 --- !u!114 &6684925371174935771
 MonoBehaviour:
@@ -371,33 +556,6 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1074
   Exists: 1
---- !u!114 &8084190797732299334
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/BackingMusic 1
-  m_EditorClassIdentifier: 
-  Path: event:/BackingMusic 1
-  Guid:
-    Data1: -1924252923
-    Data2: 1265061473
-    Data3: 1461911698
-    Data4: -781154371
-  Banks:
-  - {fileID: -299896337581183203}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 18113
 --- !u!114 &8199368834641043374
 MonoBehaviour:
   m_ObjectHideFlags: 0
