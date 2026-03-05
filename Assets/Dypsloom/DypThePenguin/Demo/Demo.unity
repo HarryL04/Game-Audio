@@ -571,11 +571,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -2358516
+      Data2: 1239504934
+      Data3: 643222916
+      Data4: -1201519624
+    Path: event:/Menu_Hover
 --- !u!4 &128614667 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8305396518152113136, guid: 846e94f8d62d2be4c933954f6eaa4889,
@@ -1156,7 +1156,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 0
+  m_TextStyleHashCode: -1183493901
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -1168,9 +1168,9 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 514
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -1183,7 +1183,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -2050,6 +2050,7 @@ GameObject:
   - component: {fileID: 446351140}
   - component: {fileID: 446351139}
   - component: {fileID: 446351138}
+  - component: {fileID: 446351141}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -2171,6 +2172,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 446351136}
   m_CullTransparentMesh: 0
+--- !u!114 &446351141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446351136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2358516
+      Data2: 1239504934
+      Data3: 643222916
+      Data4: -1201519624
+    Path: event:/Menu_Hover
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &457625955
 GameObject:
   m_ObjectHideFlags: 0
@@ -3316,7 +3348,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 0
+  m_TextStyleHashCode: -1183493901
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -3328,9 +3360,9 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 514
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -3343,7 +3375,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -7115,11 +7147,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: event:/Amb/Winter Wind Sound Effect - Sound Effect Database (youtube)
+      Data1: 820244333
+      Data2: 1273225261
+      Data3: -443681625
+      Data4: -584749976
+    Path: event:/BackingMusic 2
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 0
@@ -8218,11 +8250,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1204250023
-      Data2: 1226796514
-      Data3: 1067566982
-      Data4: -2079697235
-    Path: event:/Music/BackingMusic
+      Data1: -1924252923
+      Data2: 1265061473
+      Data3: 1461911698
+      Data4: -781154371
+    Path: event:/BackingMusic 1
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 0
@@ -8972,7 +9004,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 0
+  m_TextStyleHashCode: -1183493901
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -8984,9 +9016,9 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 514
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -8999,7 +9031,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -9508,11 +9540,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverEvent:
     Guid:
-      Data1: -1694973930
-      Data2: 1212219629
-      Data3: 1775951289
-      Data4: 946231017
-    Path: event:/UI/Click_Pen
+      Data1: -2358516
+      Data2: 1239504934
+      Data3: 643222916
+      Data4: -1201519624
+    Path: event:/Menu_Hover
 --- !u!1 &1786534940
 GameObject:
   m_ObjectHideFlags: 0
@@ -11978,10 +12010,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 457625956}
     m_Modifications:
+    - target: {fileID: 3115095922610227742, guid: 076e286a7c5570248ba1f1659c3d0425,
+        type: 3}
+      propertyPath: m_Center.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3115095922677522292, guid: 076e286a7c5570248ba1f1659c3d0425,
         type: 3}
       propertyPath: m_PresetInfoIsWorld
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3115095923798978806, guid: 076e286a7c5570248ba1f1659c3d0425,
+        type: 3}
+      propertyPath: m_Center.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3115095923870000268, guid: 076e286a7c5570248ba1f1659c3d0425,
         type: 3}
@@ -12042,6 +12084,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3280871434601744567, guid: 076e286a7c5570248ba1f1659c3d0425,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3280871434601744567, guid: 076e286a7c5570248ba1f1659c3d0425,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3280871434601744567, guid: 076e286a7c5570248ba1f1659c3d0425,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3280871434601744567, guid: 076e286a7c5570248ba1f1659c3d0425,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3280871434601744567, guid: 076e286a7c5570248ba1f1659c3d0425,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3280871434601744567, guid: 076e286a7c5570248ba1f1659c3d0425,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3115095922289001220, guid: 076e286a7c5570248ba1f1659c3d0425, type: 3}
