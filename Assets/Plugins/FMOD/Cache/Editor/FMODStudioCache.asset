@@ -292,6 +292,51 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 14545
+--- !u!114 &-2539680319628186151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Menu_Hover
+  m_EditorClassIdentifier: 
+  Path: event:/Menu_Hover
+  Guid:
+    Data1: -2358516
+    Data2: 1239504934
+    Data3: 643222916
+    Data4: -1201519624
+  Banks:
+  - {fileID: 5583607203292767570}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 60
+--- !u!114 &-1074018115232318308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 639083476938156013
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-809150888228073931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -343,42 +388,55 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 5923497803616204652}
-  - {fileID: 2311431967893561235}
-  - {fileID: -299896337581183203}
-  - {fileID: -6866640526550117665}
-  - {fileID: 448073672816081446}
-  - {fileID: -8968579020359376263}
+  - {fileID: 1821805755573234738}
+  - {fileID: -1074018115232318308}
+  - {fileID: 1424822120987903706}
+  - {fileID: 5583607203292767570}
   EditorEvents:
-  - {fileID: -5065509134316855399}
-  - {fileID: 2866250073699259520}
-  - {fileID: 779757231034099169}
-  - {fileID: -8031565816719186376}
-  - {fileID: -7008434649035029984}
-  - {fileID: -3877213874803173800}
-  - {fileID: -3075118429265044706}
+  - {fileID: 5262325794436603008}
+  - {fileID: 107384283719052099}
+  - {fileID: -2539680319628186151}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 2311431967893561235}
+  - {fileID: -1074018115232318308}
   StringsBanks:
-  - {fileID: 5923497803616204652}
+  - {fileID: 1821805755573234738}
   cacheVersion: 131858
-  cacheTime: 639081424987926622
+  cacheTime: 639083476940791269
   SerializableEventsDict:
-  - key: event:/Amb/Winter Wind Sound Effect - Sound Effect Database (youtube)
+  - key: event:/BackingMusic 1
     index: 0
-  - key: event:/Music/BackingMusic
+  - key: event:/BackingMusic 2
     index: 1
-  - key: event:/Player/Throw_Effect
+  - key: event:/Menu_Hover
     index: 2
-  - key: event:/UI/Click_Pen
-    index: 3
-  - key: event:/Amb/Duck_Quack
-    index: 4
-  - key: event:/Player/Jump Sound
-    index: 5
-  - key: event:/Amb/Duck Screech
-    index: 6
+--- !u!114 &107384283719052099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BackingMusic 2
+  m_EditorClassIdentifier: 
+  Path: event:/BackingMusic 2
+  Guid:
+    Data1: 820244333
+    Data2: 1273225261
+    Data3: -443681625
+    Data4: -584749976
+  Banks:
+  - {fileID: 1424822120987903706}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 14545
 --- !u!114 &448073672816081446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -424,6 +482,44 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &1424822120987903706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 639083476940658909
+  FileSizes: []
+  Exists: 1
+--- !u!114 &1821805755573234738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 639083476938171044
+  FileSizes:
+  - Name: 
+    Value: 964
+  Exists: 1
 --- !u!114 &2311431967893561235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -516,6 +612,51 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 60
+--- !u!114 &5262325794436603008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BackingMusic 1
+  m_EditorClassIdentifier: 
+  Path: event:/BackingMusic 1
+  Guid:
+    Data1: -1924252923
+    Data2: 1265061473
+    Data3: 1461911698
+    Data4: -781154371
+  Banks:
+  - {fileID: 1424822120987903706}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 18113
+--- !u!114 &5583607203292767570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/Desktop/UI.bank
+  Name: UI
+  StudioPath: bank:/UI
+  lastModified: 639083476940791269
+  FileSizes: []
+  Exists: 1
 --- !u!114 &5923497803616204652
 MonoBehaviour:
   m_ObjectHideFlags: 0
