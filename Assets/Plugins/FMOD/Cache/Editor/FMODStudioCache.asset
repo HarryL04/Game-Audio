@@ -360,18 +360,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Ambience/DuckQuack
   Guid:
-    Data1: -759178589
-    Data2: 1190914098
-    Data3: -1344686715
-    Data4: -1999309725
+    Data1: -454431134
+    Data2: 1205503165
+    Data3: 946507674
+    Data4: -1155938683
   Banks:
   - {fileID: 1667038008280212002}
   IsStream: 0
   Is3D: 1
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
+  MinDistance: 5
+  MaxDistance: 50
   Length: 2000
 --- !u!114 &-2216611627713221114
 MonoBehaviour:
@@ -406,7 +406,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/FMOD/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639087565901560826
+  lastModified: 639087576056279151
   FileSizes: []
   Exists: 1
 --- !u!114 &-809150888228073931
@@ -479,7 +479,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 1821805755573234738}
   cacheVersion: 131858
-  cacheTime: 639087567773588804
+  cacheTime: 639087584106465276
   SerializableEventsDict:
   - key: event:/Music/BackingMusic
     index: 0
@@ -598,7 +598,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/FMOD/Desktop/Ambience.bank
   Name: Ambience
   StudioPath: bank:/Ambience
-  lastModified: 639087555335650565
+  lastModified: 639087584106465276
   FileSizes: []
   Exists: 1
 --- !u!114 &1821805755573234738
@@ -616,7 +616,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/FMOD/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639087565901574029
+  lastModified: 639087576056288266
   FileSizes:
   - Name: 
     Value: 1196
