@@ -29,6 +29,13 @@ namespace Dypsloom.DypThePenguin.Scripts.Character
     {
         RuntimeManager.PlayOneShot(jumpSound, transform.position);
     }
+
+    [SerializeField] public EventReference jumpGrunt;
+
+    public void PlayJumpGrunt()
+        {
+            RuntimeManager.PlayOneShot(jumpGrunt, transform.position);
+        }
        
         public event Action OnDie;
         

@@ -68,6 +68,7 @@ namespace Dypsloom.DypThePenguin.Scripts.Character
                     m_IsJumping = true;
 
                     m_Character.PlayJumpSound();
+                    m_Character.PlayJumpGrunt();
 
                     m_JumpForceMover.StartJump(m_Character.JumpForce, m_Character.JumpFallOff);
                     AddExternalMover(m_JumpForceMover);

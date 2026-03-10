@@ -360,10 +360,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Ambience/DuckQuack
   Guid:
-    Data1: -2038793602
-    Data2: 1104318441
-    Data3: 1513713826
-    Data4: -136192738
+    Data1: -759178589
+    Data2: 1190914098
+    Data3: -1344686715
+    Data4: -1999309725
   Banks:
   - {fileID: 1667038008280212002}
   IsStream: 0
@@ -372,7 +372,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 2000
 --- !u!114 &-2216611627713221114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -388,7 +388,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/FMOD/Desktop/Player.bank
   Name: Player
   StudioPath: bank:/Player
-  lastModified: 639087541325229695
+  lastModified: 639087567773588804
   FileSizes: []
   Exists: 1
 --- !u!114 &-1074018115232318308
@@ -406,7 +406,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/FMOD/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639087541324708120
+  lastModified: 639087565901560826
   FileSizes: []
   Exists: 1
 --- !u!114 &-809150888228073931
@@ -471,15 +471,15 @@ MonoBehaviour:
   - {fileID: 917184149735898714}
   - {fileID: 6603492741588380528}
   - {fileID: -2593236257064237124}
-  - {fileID: 4153358756239479024}
   - {fileID: -7473903545686521180}
+  - {fileID: 4278683480663265278}
   EditorParameters: []
   MasterBanks:
   - {fileID: -1074018115232318308}
   StringsBanks:
   - {fileID: 1821805755573234738}
   cacheVersion: 131858
-  cacheTime: 639087541325384635
+  cacheTime: 639087567773588804
   SerializableEventsDict:
   - key: event:/Music/BackingMusic
     index: 0
@@ -489,9 +489,9 @@ MonoBehaviour:
     index: 2
   - key: event:/Ambience/DuckQuack
     index: 3
-  - key: event:/Ambience/DuckSqueak
-    index: 4
   - key: event:/Player/Jump
+    index: 4
+  - key: event:/Player/PlayerJump
     index: 5
 --- !u!114 &448073672816081446
 MonoBehaviour:
@@ -580,7 +580,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/FMOD/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639087541325073666
+  lastModified: 639087549305078621
   FileSizes: []
   Exists: 1
 --- !u!114 &1667038008280212002
@@ -598,7 +598,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/FMOD/Desktop/Ambience.bank
   Name: Ambience
   StudioPath: bank:/Ambience
-  lastModified: 639087541324680516
+  lastModified: 639087555335650565
   FileSizes: []
   Exists: 1
 --- !u!114 &1821805755573234738
@@ -616,10 +616,10 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/FMOD/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639087541324714475
+  lastModified: 639087565901574029
   FileSizes:
   - Name: 
-    Value: 1192
+    Value: 1196
   Exists: 1
 --- !u!114 &2311431967893561235
 MonoBehaviour:
@@ -713,7 +713,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 60
---- !u!114 &4153358756239479024
+--- !u!114 &4278683480663265278
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -723,18 +723,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambience/DuckSqueak
+  m_Name: event:/Player/PlayerJump
   m_EditorClassIdentifier: 
-  Path: event:/Ambience/DuckSqueak
+  Path: event:/Player/PlayerJump
   Guid:
-    Data1: -759178589
-    Data2: 1190914098
-    Data3: -1344686715
-    Data4: -1999309725
+    Data1: -841206300
+    Data2: 1086240831
+    Data3: -1790694255
+    Data4: -1326531135
   Banks:
-  - {fileID: 1667038008280212002}
+  - {fileID: -2216611627713221114}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -755,7 +755,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/FMOD/Desktop/UI.bank
   Name: UI
   StudioPath: bank:/UI
-  lastModified: 639087541325384635
+  lastModified: 639087549305405149
   FileSizes: []
   Exists: 1
 --- !u!114 &5923497803616204652
