@@ -18,6 +18,33 @@ MonoBehaviour:
   lastModified: 639081410625881085
   FileSizes: []
   Exists: 1
+--- !u!114 &-8056981538272966379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/BackingMusic
+  m_EditorClassIdentifier: 
+  Path: event:/Music/BackingMusic
+  Guid:
+    Data1: -761489162
+    Data2: 1244617122
+    Data3: -227347790
+    Data4: 413650969
+  Banks:
+  - {fileID: 1424822120987903706}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 339748
 --- !u!114 &-8031565816719186376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72,6 +99,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 18113
+--- !u!114 &-7473903545686521180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Jump
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Jump
+  Guid:
+    Data1: 394533463
+    Data2: 1131968249
+    Data3: 2000308381
+    Data4: 1751486960
+  Banks:
+  - {fileID: -2216611627713221114}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-7008434649035029984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -292,7 +346,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 14545
---- !u!114 &-2539680319628186151
+--- !u!114 &-2593236257064237124
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -302,23 +356,41 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Menu_Hover
+  m_Name: event:/Ambience/DuckQuack
   m_EditorClassIdentifier: 
-  Path: event:/Menu_Hover
+  Path: event:/Ambience/DuckQuack
   Guid:
-    Data1: -2358516
-    Data2: 1239504934
-    Data3: 643222916
-    Data4: -1201519624
+    Data1: -2038793602
+    Data2: 1104318441
+    Data3: 1513713826
+    Data4: -136192738
   Banks:
-  - {fileID: 5583607203292767570}
+  - {fileID: 1667038008280212002}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 60
+  Length: 0
+--- !u!114 &-2216611627713221114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/Desktop/Player.bank
+  Name: Player
+  StudioPath: bank:/Player
+  lastModified: 639087541325229695
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-1074018115232318308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -334,7 +406,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/FMOD/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639083491841515010
+  lastModified: 639087541324708120
   FileSizes: []
   Exists: 1
 --- !u!114 &-809150888228073931
@@ -392,51 +464,35 @@ MonoBehaviour:
   - {fileID: -1074018115232318308}
   - {fileID: 1424822120987903706}
   - {fileID: 5583607203292767570}
+  - {fileID: 1667038008280212002}
+  - {fileID: -2216611627713221114}
   EditorEvents:
-  - {fileID: 5262325794436603008}
-  - {fileID: 107384283719052099}
-  - {fileID: -2539680319628186151}
+  - {fileID: -8056981538272966379}
+  - {fileID: 917184149735898714}
+  - {fileID: 6603492741588380528}
+  - {fileID: -2593236257064237124}
+  - {fileID: 4153358756239479024}
+  - {fileID: -7473903545686521180}
   EditorParameters: []
   MasterBanks:
   - {fileID: -1074018115232318308}
   StringsBanks:
   - {fileID: 1821805755573234738}
   cacheVersion: 131858
-  cacheTime: 639083491846823019
+  cacheTime: 639087541325384635
   SerializableEventsDict:
-  - key: event:/BackingMusic 1
+  - key: event:/Music/BackingMusic
     index: 0
-  - key: event:/BackingMusic 2
+  - key: event:/UI/Click_Pen
     index: 1
-  - key: event:/Menu_Hover
+  - key: event:/Ambience/WindAmb
     index: 2
---- !u!114 &107384283719052099
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/BackingMusic 2
-  m_EditorClassIdentifier: 
-  Path: event:/BackingMusic 2
-  Guid:
-    Data1: 820244333
-    Data2: 1273225261
-    Data3: -443681625
-    Data4: -584749976
-  Banks:
-  - {fileID: 1424822120987903706}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 14545
+  - key: event:/Ambience/DuckQuack
+    index: 3
+  - key: event:/Ambience/DuckSqueak
+    index: 4
+  - key: event:/Player/Jump
+    index: 5
 --- !u!114 &448073672816081446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -482,6 +538,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &917184149735898714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Click_Pen
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Click_Pen
+  Guid:
+    Data1: -1354394583
+    Data2: 1236066511
+    Data3: -1603411582
+    Data4: 1692761492
+  Banks:
+  - {fileID: 5583607203292767570}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &1424822120987903706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -497,7 +580,25 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/FMOD/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639083491846666095
+  lastModified: 639087541325073666
+  FileSizes: []
+  Exists: 1
+--- !u!114 &1667038008280212002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/Desktop/Ambience.bank
+  Name: Ambience
+  StudioPath: bank:/Ambience
+  lastModified: 639087541324680516
   FileSizes: []
   Exists: 1
 --- !u!114 &1821805755573234738
@@ -515,10 +616,10 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/FMOD/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639083491841515010
+  lastModified: 639087541324714475
   FileSizes:
   - Name: 
-    Value: 964
+    Value: 1192
   Exists: 1
 --- !u!114 &2311431967893561235
 MonoBehaviour:
@@ -612,7 +713,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 60
---- !u!114 &5262325794436603008
+--- !u!114 &4153358756239479024
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -622,23 +723,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/BackingMusic 1
+  m_Name: event:/Ambience/DuckSqueak
   m_EditorClassIdentifier: 
-  Path: event:/BackingMusic 1
+  Path: event:/Ambience/DuckSqueak
   Guid:
-    Data1: -1924252923
-    Data2: 1265061473
-    Data3: 1461911698
-    Data4: -781154371
+    Data1: -759178589
+    Data2: 1190914098
+    Data3: -1344686715
+    Data4: -1999309725
   Banks:
-  - {fileID: 1424822120987903706}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
+  - {fileID: 1667038008280212002}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 18113
+  Length: 2000
 --- !u!114 &5583607203292767570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -654,7 +755,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/FMOD/Desktop/UI.bank
   Name: UI
   StudioPath: bank:/UI
-  lastModified: 639083491846823019
+  lastModified: 639087541325384635
   FileSizes: []
   Exists: 1
 --- !u!114 &5923497803616204652
@@ -677,6 +778,33 @@ MonoBehaviour:
   - Name: 
     Value: 1302
   Exists: 1
+--- !u!114 &6603492741588380528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/WindAmb
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/WindAmb
+  Guid:
+    Data1: 108659836
+    Data2: 1327001870
+    Data3: -341727610
+    Data4: -1560937692
+  Banks:
+  - {fileID: 1667038008280212002}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 14733
 --- !u!114 &6684925371174935771
 MonoBehaviour:
   m_ObjectHideFlags: 0
