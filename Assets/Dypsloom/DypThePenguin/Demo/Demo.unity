@@ -8265,11 +8265,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -761489162
-      Data2: 1244617122
-      Data3: -227347790
-      Data4: 413650969
-    Path: event:/Music/BackingMusic
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 2
@@ -14364,6 +14364,81 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -1.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 4705578062606688400, guid: 846e94f8d62d2be4c933954f6eaa4889,
+        type: 3}
+      propertyPath: m_CrystalSound.Path
+      value: event:/Ding
+      objectReference: {fileID: 0}
+    - target: {fileID: 4705578062606688400, guid: 846e94f8d62d2be4c933954f6eaa4889,
+        type: 3}
+      propertyPath: m_CrystalSound.Guid.Data1
+      value: 652934918
+      objectReference: {fileID: 0}
+    - target: {fileID: 4705578062606688400, guid: 846e94f8d62d2be4c933954f6eaa4889,
+        type: 3}
+      propertyPath: m_CrystalSound.Guid.Data2
+      value: 1225021285
+      objectReference: {fileID: 0}
+    - target: {fileID: 4705578062606688400, guid: 846e94f8d62d2be4c933954f6eaa4889,
+        type: 3}
+      propertyPath: m_CrystalSound.Guid.Data3
+      value: -623292531
+      objectReference: {fileID: 0}
+    - target: {fileID: 4705578062606688400, guid: 846e94f8d62d2be4c933954f6eaa4889,
+        type: 3}
+      propertyPath: m_CrystalSound.Guid.Data4
+      value: -222938025
+      objectReference: {fileID: 0}
+    - target: {fileID: 5732481263325917620, guid: 846e94f8d62d2be4c933954f6eaa4889,
+        type: 3}
+      propertyPath: m_CrystalSound.Path
+      value: event:/Ding
+      objectReference: {fileID: 0}
+    - target: {fileID: 5732481263325917620, guid: 846e94f8d62d2be4c933954f6eaa4889,
+        type: 3}
+      propertyPath: m_CrystalSound.Guid.Data1
+      value: 652934918
+      objectReference: {fileID: 0}
+    - target: {fileID: 5732481263325917620, guid: 846e94f8d62d2be4c933954f6eaa4889,
+        type: 3}
+      propertyPath: m_CrystalSound.Guid.Data2
+      value: 1225021285
+      objectReference: {fileID: 0}
+    - target: {fileID: 5732481263325917620, guid: 846e94f8d62d2be4c933954f6eaa4889,
+        type: 3}
+      propertyPath: m_CrystalSound.Guid.Data3
+      value: -623292531
+      objectReference: {fileID: 0}
+    - target: {fileID: 5732481263325917620, guid: 846e94f8d62d2be4c933954f6eaa4889,
+        type: 3}
+      propertyPath: m_CrystalSound.Guid.Data4
+      value: -222938025
+      objectReference: {fileID: 0}
+    - target: {fileID: 8238290554239879111, guid: 846e94f8d62d2be4c933954f6eaa4889,
+        type: 3}
+      propertyPath: m_CrystalSound.Path
+      value: event:/Ding
+      objectReference: {fileID: 0}
+    - target: {fileID: 8238290554239879111, guid: 846e94f8d62d2be4c933954f6eaa4889,
+        type: 3}
+      propertyPath: m_CrystalSound.Guid.Data1
+      value: 652934918
+      objectReference: {fileID: 0}
+    - target: {fileID: 8238290554239879111, guid: 846e94f8d62d2be4c933954f6eaa4889,
+        type: 3}
+      propertyPath: m_CrystalSound.Guid.Data2
+      value: 1225021285
+      objectReference: {fileID: 0}
+    - target: {fileID: 8238290554239879111, guid: 846e94f8d62d2be4c933954f6eaa4889,
+        type: 3}
+      propertyPath: m_CrystalSound.Guid.Data3
+      value: -623292531
+      objectReference: {fileID: 0}
+    - target: {fileID: 8238290554239879111, guid: 846e94f8d62d2be4c933954f6eaa4889,
+        type: 3}
+      propertyPath: m_CrystalSound.Guid.Data4
+      value: -222938025
       objectReference: {fileID: 0}
     - target: {fileID: 8305396517648630052, guid: 846e94f8d62d2be4c933954f6eaa4889,
         type: 3}

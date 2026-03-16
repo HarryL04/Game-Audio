@@ -565,7 +565,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 8804326133681541378}
   cacheVersion: 131858
-  cacheTime: 639092876052929984
+  cacheTime: 639092896996609081
   SerializableEventsDict:
   - key: event:/BackingMusic 1
     index: 0
@@ -949,7 +949,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/FMOD/Desktop/UI.bank
   Name: UI
   StudioPath: bank:/UI
-  lastModified: 639092876052929984
+  lastModified: 639092896996609081
   FileSizes: []
   Exists: 1
 --- !u!114 &8199368834641043374

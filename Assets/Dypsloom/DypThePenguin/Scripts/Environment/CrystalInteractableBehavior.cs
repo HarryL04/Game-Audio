@@ -9,6 +9,9 @@ namespace Dypsloom.DypThePenguin.Scripts.Environment
     using Dypsloom.DypThePenguin.Scripts.Interactions;
     using Dypsloom.Shared.Utility;
     using UnityEngine;
+    using FMOD.Studio;
+    using FMODUnity;
+        
 
     public class CrystalInteractableBehavior : InteractableBehavior
     {
@@ -18,6 +21,8 @@ namespace Dypsloom.DypThePenguin.Scripts.Environment
         [SerializeField] protected Transform m_ObjectTransform;
         [Tooltip("How smoothly to move the object.")]
         [SerializeField] protected float m_SmoothFactor;
+
+        [SerializeField] private EventReference m_CrystalSound;
     
         [Tooltip("Rotation speed at idle.")]
         [SerializeField] protected Vector3 m_RotationSpeedIdle = new Vector3(0,1,0);
@@ -55,6 +60,11 @@ namespace Dypsloom.DypThePenguin.Scripts.Environment
         public override void OnInteract(IInteractor interactor)
         {
             base.OnInteract(interactor);
+
+            RuntimeManager.PlayOneShot("event:/Ding");
+
+            Debug.Log("Crystal interacted");
+
             m_Interacting = true;
             SchedulerManager.Schedule(
                 ()=>m_Interacting = false,m_InteractPeriod);
