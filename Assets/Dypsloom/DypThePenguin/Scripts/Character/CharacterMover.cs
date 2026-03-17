@@ -8,7 +8,6 @@ namespace Dypsloom.DypThePenguin.Scripts.Character
 {
     using System.Collections.Generic;
     using UnityEngine;
- 
 
     /// <summary>
     /// Character Mover used to move a character using a character controller.
@@ -36,7 +35,6 @@ namespace Dypsloom.DypThePenguin.Scripts.Character
         protected const float c_StickyGravity = -0.3f;
         protected const float c_NoVerticalMovementOffset = 0.01f;
 
-        
         /// <summary>
         /// Constructor.
         /// </summary>
@@ -66,13 +64,9 @@ namespace Dypsloom.DypThePenguin.Scripts.Character
                 if (m_Character.CharacterInput.Jump) {
                     m_Character.IsGrounded = false;
                     m_IsJumping = true;
-
-                    m_Character.PlayJumpSound();
-                    m_Character.PlayJumpGrunt();
-
                     m_JumpForceMover.StartJump(m_Character.JumpForce, m_Character.JumpFallOff);
                     AddExternalMover(m_JumpForceMover);
-}      
+                }
 
                 if (m_Movement.y > c_NoVerticalMovementOffset) { m_GravityMovement = new Vector3(0, 0f, 0); } else {
                     m_GravityMovement = new Vector3(0, c_StickyGravity, 0);
