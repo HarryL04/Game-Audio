@@ -280,7 +280,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/FMOD/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639092876051998302
+  lastModified: 639093400035850774
   FileSizes: []
   Exists: 1
 --- !u!114 &-3877213874803173800
@@ -424,7 +424,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/FMOD/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639092876042571679
+  lastModified: 639093423752997164
   FileSizes: []
   Exists: 1
 --- !u!114 &-1074018115232318308
@@ -557,51 +557,24 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: -66779517374235320}
   - {fileID: 8375237935424517607}
-  - {fileID: 277841717694485092}
   - {fileID: -250807452494834962}
+  - {fileID: 3186328760295916244}
   EditorParameters: []
   MasterBanks:
   - {fileID: -1240182879988822367}
   StringsBanks:
   - {fileID: 8804326133681541378}
   cacheVersion: 131858
-  cacheTime: 639092896996609081
+  cacheTime: 639093426602631004
   SerializableEventsDict:
   - key: event:/BackingMusic 1
     index: 0
   - key: event:/BackingMusic 2
     index: 1
-  - key: event:/Ding
-    index: 2
   - key: event:/Menu_Hover
+    index: 2
+  - key: event:/Ding2
     index: 3
---- !u!114 &277841717694485092
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ding
-  m_EditorClassIdentifier: 
-  Path: event:/Ding
-  Guid:
-    Data1: 652934918
-    Data2: 1225021285
-    Data3: -623292531
-    Data4: -222938025
-  Banks:
-  - {fileID: 6740864594541825254}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 720
 --- !u!114 &448073672816081446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -795,6 +768,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 339748
+--- !u!114 &3186328760295916244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ding2
+  m_EditorClassIdentifier: 
+  Path: event:/Ding2
+  Guid:
+    Data1: 1082703499
+    Data2: 1248234588
+    Data3: 2125534622
+    Data4: 1077623137
+  Banks:
+  - {fileID: 6740864594541825254}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 696
 --- !u!114 &3763552627847225266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -949,7 +949,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/FMOD/Desktop/UI.bank
   Name: UI
   StudioPath: bank:/UI
-  lastModified: 639092896996609081
+  lastModified: 639093426602631004
   FileSizes: []
   Exists: 1
 --- !u!114 &8199368834641043374
@@ -1014,7 +1014,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/FMOD/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639092876042586802
+  lastModified: 639093423753003683
   FileSizes:
   - Name: 
     Value: 1000

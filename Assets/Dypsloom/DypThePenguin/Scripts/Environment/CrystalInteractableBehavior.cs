@@ -61,7 +61,7 @@ namespace Dypsloom.DypThePenguin.Scripts.Environment
         {
             base.OnInteract(interactor);
 
-            RuntimeManager.PlayOneShot("event:/Ding");
+            RuntimeManager.PlayOneShot("event:/Ding2");
 
             Debug.Log("Crystal interacted");
 
